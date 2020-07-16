@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Pokemon </title>
+        
+        <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+        crossorigin="anonymous"
+      />
+    </head>
+
+    <body>
+	    <div class="header">
+		    <h1>INFO</h1>
+		    <input class="input" type="text" id="input" placeholder="Pokédex Number...">
+	    	<button id="go" class="pokedex-button" onclick="submit()">Go</button>
+	    	<button id="random" class="pokedex-button" onclick="random()">Random Pokémon</button>
+		    <button id="clear" class="button-clear">x</button>
+	    </div>
+    
+        <div class="pokedex-screen">
+	    	<img class="pokedex-img" id="img" src="" alt="">
+	    </div>
+	
+	    <div class="info">
+	    <div id="data1" class="pokedex-data">
+		    <p class="pokedex-data-text"><span id="text_id"></span> <span id="text_name"></span></p>
+	    </div>
+	
+		    <p class="pokedex-data-text ability">Ability: <span id="text_ability"></span></p> <br>
+		    <p class="pokedex-data-text ability">Type(s):</p>
+		    <div id="data2" class="pokedex-data">
+			    <p class="pokedex-data-text"><span id="text_type"> </span><span class="space"></span><span id="text_type2"></span></p>
+	        </div>
+	    </div>
+    </body>
+</html>

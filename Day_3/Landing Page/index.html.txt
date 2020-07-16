@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-UD">
+        <head>
+              <title>Jasmin Mitchell</title>
+              <meta charset="UTF-8">
+              <meta name="description" content="A little about me">
+              <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+              <link rel="stylesheet" type="text/css" href="index.css">
+       </head>
+       <body id="home" class="open-left">
+              <section class="center">
+                      <header>
+                             <nav>
+                                    Navigation
+                              </nav>
+                       </header>
+                     <section>
+                            <main>
+                                   <article>
+                                           <img src="me.jpg" alt="" />
+                                    <figure>
+                                    <h1 style="font-size 2em"> About Me </12>
+                                    <hr>
+                                    <p>
+                                          My name is Jasmin Mitchell and I am a freshman at Brenau University. I will be working towards a degree in Business Administration. I am currently 17, and will be 18 on August 27. I enjoy reading and writing for my hobbies, as well as looking aftrer my dogs. 
+                                         
+                                         </p>
+                                         <p>
+                                          My GitHub username was actually made when I was attending a summer class on AI and we had to create a name based off a preexisting format. Most of our work stayed in that formating, so there isn't any specail reason behind why it is made a certain way. I don't really remember much from that class as I did not do very well in the coarse and struggled with most of what we were learning. 
+                                    </p>
+                                    </article>
+                             </main>
+                      </section>
+                     <footer>
+                     </footer>
+               </section>
+               <script type="text/javascript" src="index.js"></script>
+
+       </body>
+<html>
